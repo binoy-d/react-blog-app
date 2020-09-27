@@ -5,7 +5,7 @@ import HomePage from './Pages/HomePage'
 import AboutPage from './Pages/AboutPage'
 import ArticlePage from './Pages/ArticlePage'
 import ArticlesListPage from './Pages/ArticlesListPage'
-
+import NotFoundPage from './Pages/NotFoundPage'
 import Navbar from './Components/NavBar'
 import './App.css';
 
@@ -19,6 +19,7 @@ function App() {
           <Route path="/about" component={AboutPage} />
           <Route path="/articles-list" component={ArticlesListPage} />
           <Route path="/article/:name" component={ArticlePage} />
+          <Route component = {NotFoundPage} />
         </div>
       </div>
     </Router>
