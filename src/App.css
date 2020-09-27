@@ -43,6 +43,7 @@ nav a {
   color: black;
   font-weight: bold;
   padding: 16px 32px;
+  transition: background 0.3s;
 }
 
 nav a:hover {

@@ -1,9 +1,9 @@
 import React from 'react';
 
 
-const HomePage = () => (
+const ArticlesList = () => (
     <>
-        <h1>Hello, this is Binoy's blog</h1>
+        <h1>Article List</h1>
         <p>
             Never thought I'd make it. Three days grade school,
             three days high school. Those were awkward. Three
@@ -24,4 +24,4 @@ const HomePage = () => (
     </>
 );
 
-export default HomePage;
+export default ArticlesList;
