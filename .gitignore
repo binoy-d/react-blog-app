@@ -2,6 +2,8 @@
 
 # dependencies
 /node_modules
+/react-blog-app/node_modules
+/react-blog-backend/node_modules
 /.pnp
 .pnp.js
 
