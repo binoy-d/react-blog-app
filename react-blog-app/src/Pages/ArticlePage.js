@@ -10,8 +10,13 @@ const ArticlePage = ({ match }) => {
 
     const [articleInfo, setArticleInfo] = useState({ upvotes: 0, comments: [] });
     //runs when component mounts and updates one of the things in the array
-    useEffect(()=>{
-
+    useEffect(() => {
+        const fetchData = async () => {
+            const result = await fetch('/api/articles/' + name);
+            const body = await result.json();
+            setArticleInfo(body);
+        }
+        fetchData();
     }, [name]);
 
 
